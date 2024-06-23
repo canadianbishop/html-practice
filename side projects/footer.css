@@ -1,0 +1,74 @@
+.container-footer{
+    width: 100% ;
+    max-height: fit-content;
+    margin-top: 0px;
+    padding: 20px;
+    background-color: black;
+}
+
+
+.flex-foot{
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+    position: relative;
+    height: 400px;
+}
+
+
+.foot-one,
+.foot-two,
+.foot-three,
+.foot-four {
+    width: 150px; 
+    height: 200px;
+    padding: 10px;
+
+}
+
+
+
+
+
+.foot-five{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    right: 70px;
+    bottom: 90px;
+    width: 150px;
+    height: 120px;   
+    padding: 5px;
+}
+
+.image-footer{
+    height:40px;
+    width: 30px;   
+}
+
+.icon-footer{
+    background-color: white;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+
+
+footer div p {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: roboto, arial;
+    font-size: 12px;
+    color: white;
+}
+
+footer div, .foot-title{
+    margin-bottom: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact{
+    margin-top: 30px;
+}
